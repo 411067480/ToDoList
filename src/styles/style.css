@@ -95,8 +95,11 @@ body{
 }
 .newadd button{
     float: right;
-    margin-top: 6px;
+    margin-top: 8px;
     margin-right: 0px;
+    background-color: rgb(98, 193, 174);
+    color: rgb(255, 255, 255);
+    border: 0px;
 }
 
 /*已完成*/
@@ -124,5 +127,9 @@ body{
 }
 .ok button{
     float: right;
-    margin-top: 6px;
+    margin-top: 8px;
+    background-color: rgb(98, 193, 174);
+    color: rgb(255, 255, 255);
+    border: 0px;
 }
+
