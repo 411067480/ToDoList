@@ -20,7 +20,7 @@
     <ul class="newadd" id="newadd">
       <li v-for="(item,key) in list" v-if="!item.checked" >
           <input type="checkbox" v-model="item.checked" @change="changeList()" /> {{item.title}}     
-          <button @click="removeData(key)" title="点击删除">-</button>
+          <button @click="removeData(key)" title="点击删除">-删除-</button>
       </li>
     </ul>
     
@@ -33,7 +33,7 @@
     <ul class="ok">      
       <li v-for="(item,key) in list" v-if="item.checked">
         <input type="checkbox"  v-model="item.checked" @change="changeList()" /> {{item.title}}   
-        <button @click="removeData(key)" title="点击删除">-</button>
+        <button @click="removeData(key)" title="点击删除">-删除-</button>
       </li>
     </ul>
     
