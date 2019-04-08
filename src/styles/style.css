@@ -1,0 +1,128 @@
+body{
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+.container{
+    background-color:rgb(49, 48, 48);
+    width: 100%;
+    height: 50px;
+}
+.container .item{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(49, 48, 48);
+    margin: 0px auto;
+}
+.container .item .todolist{
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(49, 48, 48);
+    margin: 0px auto;
+    vertical-align: -webkit-baseline-middle;
+}
+.container .item .todolist .title{
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 10%;
+    float: left;
+    padding-top: 12.5px;
+}
+.container .item .todolist input{
+    margin-top: 9.5px;
+    margin-right: 15%;
+    margin-left: 5%;
+    width:50%;
+    height: 26px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px solid rgb(145, 145, 145);
+}
+.playing{
+    background-color: #ddd;
+    width: 40%;
+    margin: 0 auto;
+    height:36px;
+    border-radius: 0px 18px 18px 0px;
+    padding-left: 50px;
+}
+.playing div:first-child{
+    color: rgb(49, 48, 48);
+    font-weight: bolder;
+    font-size: 25px;
+    float: left;
+    margin-left: -50px;
+}
+.playing div:nth-child(2){
+    background-color: rgb(229, 239, 248);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px 16px 16px 16px;
+    margin-top: 2px;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 32px;
+}
+
+/*正进行*/
+.newadd {
+    background-color:#ddd;
+    list-style: none;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 4px 4px 4px 4px;
+}
+.newadd li{
+    overflow: hidden;
+    width: 100%;
+    height: 38px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgb(255, 255, 255);
+    border-left: 8px solid rgb(98, 193, 174);
+    margin-bottom: 10px;
+    margin-left: -43px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+.newadd input{
+    margin-top: 14px;
+}
+.newadd button{
+    float: right;
+    margin-top: 6px;
+    margin-right: 0px;
+}
+
+/*已完成*/
+.ok {
+    background-color:#ddd;
+    list-style: none;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 4px 4px 4px 4px;
+}
+.ok li{
+    overflow: hidden;
+    width: 100%;
+    height: 38px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgb(255, 255, 255);
+    border-left: 8px solid rgb(98, 193, 174);
+    margin-bottom: 10px;
+    margin-left: -43px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.ok input{
+    margin-top: 14px;
+}
+.ok button{
+    float: right;
+    margin-top: 6px;
+}
