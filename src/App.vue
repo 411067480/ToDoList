@@ -68,7 +68,6 @@
               });
             }
           }
-
           storage.setItem('list',this.list);
           storage.setItem('waitSize',this.waitSize);
           storage.setItem('completeSize',this.completeSize);
